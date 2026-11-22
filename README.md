@@ -7,7 +7,9 @@
 
 A modular Python voice assistant pipeline featuring wake-word detection (**Nova**), speech-to-text capture, neural text-to-speech playback, and dual AI backends tailored for distinct tasks: open-ended conversational chat via **OpenAI** and reference-grounded question answering via **Hugging Face**.
 
-![Voice Assistant Terminal Demo](docs/demo.gif)
+![OpenAI Demo](docs/openai.gif)
+
+![Hugging Face Demo](docs/huggingface.gif)
 
 ## Dual AI Modes
 
