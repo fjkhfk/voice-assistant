@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voice-assistant"
+version = "0.1.0"
+description = "Modular voice assistant and AI agent"
+requires-python = ">=3.9"
+dependencies = [
+    "SpeechRecognition",
+    "PyAudio",
+    "edge-tts",
+    "pygame",
+    "python-dotenv",
+    "openai",
+    "huggingface_hub",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+voice_assistant = ["config/*.json"]
